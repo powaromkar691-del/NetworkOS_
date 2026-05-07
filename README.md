@@ -1,16 +1,41 @@
-# React + Vite
+# NetworkOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NetworkOS is a privacy-first LinkedIn network intelligence dashboard.
 
-Currently, two official plugins are available:
+It allows users to upload their LinkedIn data export ZIP and automatically analyzes:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Connections
+- Messages
+- Profile data
+- Skills
+- Education
+- Positions
+- Certifications
+- Company follows
+- Relationship opportunities
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- LinkedIn ZIP upload
+- Automatic CSV extraction
+- Connection classification by domain
+- Priority scoring
+- Message intelligence
+- Relationship pipeline
+- Mentor radar
+- Company map
+- Profile audit
+- Local rule-based network copilot
 
-## Expanding the ESLint configuration
+## Privacy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+NetworkOS does not scrape LinkedIn and does not auto-send messages.  
+The uploaded ZIP is processed in the browser.
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JSZip
+- Netlify
